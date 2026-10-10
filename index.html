@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izka's Portfolio | Social Media Specialist & IT Student</title>
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGASI BAR -->
+    <nav class="navbar">
+        <div class="logo">Izka’s Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="profile-frame">
+                <img src="images/profile-placeholder.jpg" alt="Izka Zakiyyatun Noer" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <h3>Hello, It's Me!</h3>
+                <h1>IZKA ZAKIYYATUN NOER</h1>
+                <h2>And I'm a <span class="highlight">Social Media Specialist & Content Creator</span></h2>
+                <p>
+                    An Information Systems student who bridges the gap between data-driven analytics and creative social media strategies. Since 2023, I have helped brands build impactful digital presences—notably scaling organic growth by <strong>238%</strong> and generating up to <strong>1.3M+ views</strong> through highly engaging content.
+                </p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/yjizka" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:izkazakiyyatun09@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://tiktok.com/@jeoseungirl" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+                <a href="#contact" class="btn btn-primary">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About <span class="text-pink">Me</span></h2>
+                <h4>Social Media Specialist & Content Creator</h4>
+                <p>
+                    I am an Information Systems student with a deep passion for digital growth and visual storytelling. Since 2023, I have been bridging the gap between data-driven analytics and creative social media strategies. My unique IT background allows me to not only conceptualize engaging visual content but also analyze performance metrics, execute competitive research, and optimize campaigns based on hard data.
+                </p>
+                <button class="btn btn-pink" onclick="openModal('about-modal')">See More</button>
+            </div>
+            <div class="about-frame">
+                <img src="images/about-placeholder.jpg" alt="About Izka" class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="education-section">
+        <h2 class="section-title">My <span class="text-pink">Education</span></h2>
+        <div class="cards-grid">
+            <!-- Card 1: SMKN 4 Bogor -->
+            <div class="card">
+                <h3>SMKN 4 BOGOR</h3>
+                <p class="card-subtitle">Major: Software Engineering (2019 - 2022)</p>
+                <div class="card-img-placeholder">
+                    <img src="images/cert-smk-pkl.jpg" alt="Sertifikat SMKN 4 Bogor">
+                </div>
+                <p class="card-desc">
+                    Focused on software development fundamentals, system design, and database management. Certified <strong>"COMPETENT" (Score: 86)</strong> by PT Bonet Utama for software engineering competency.
+                </p>
+                <button class="btn btn-card" onclick="openModal('edu1-modal')">Detail</button>
+            </div>
+
+            <!-- Card 2: Bali Wise -->
+            <div class="card">
+                <h3>BALI WISE (R.O.L.E.)</h3>
+                <p class="card-subtitle">Major: Digital Marketing & Hospitality (2023)</p>
+                <div class="card-img-placeholder">
+                    <img src="images/baliwise-cover.jpg" alt="Bali Wise Graduation">
+                </div>
+                <p class="card-desc">
+                    Full scholarship awardee & pioneer student in Digital Marketing. Achieved 100% attendance, Grade A in Social Media Marketing, and kicked off career via agency internship in Bali.
+                </p>
+                <button class="btn btn-card" onclick="openModal('edu2-modal')">Detail</button>
+            </div>
+
+            <!-- Card 3: BSI University -->
+            <div class="card">
+                <h3>BSI UNIVERSITY</h3>
+                <p class="card-subtitle">Major: Information Systems (2024 - Present)</p>
+                <div class="card-img-placeholder">
+                    <img src="images/bsi-cover.jpg" alt="BSI University Academic Presentation">
+                </div>
+                <p class="card-desc">
+                    4th-semester student maintaining an outstanding <strong>GPA of 3.90+</strong>. Dual-hatting in group Project-Based Learning as Technical System Designer (ERD/LRS) and Creative Lead.
+                </p>
+                <button class="btn btn-card" onclick="openModal('edu3-modal')">Detail</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="experience-section">
+        <h2 class="section-title">Work <span class="text-pink">Experience</span></h2>
+        <div class="cards-grid">
+            <!-- Exp 1: EB Home -->
+            <div class="card">
+                <h3>EB HOME DECOR</h3>
+                <p class="card-subtitle">Social Media Specialist (Nov 2023 - Present)</p>
+                <div class="card-img-placeholder" style="background-color: #111; display: flex; align-items: center; justify-content: center;">
+                    <img src="images/eb-home-logo.png" alt="EB Home Logo" style="max-height: 80%; width: auto; object-fit: contain;">
+                </div>
+                <p class="card-desc">
+                    Scaled organic Instagram followers by <strong>+238% (9K to 30.5K+)</strong>. Managed 215+ video contents, achieving up to 90.6K views on awareness campaigns and optimizing Meta Business Suite.
+                </p>
+                <button class="btn btn-card" onclick="openModal('exp1-modal')">Detail Case Study</button>
+            </div>
+
+            <!-- Exp 2: Creator Project -->
+            <div class="card">
+                <h3>CREATOR PROJECT</h3>
+                <p class="card-subtitle">Niche Creator @jeoseungirl (2024 - Present)</p>
+                <div class="card-img-placeholder">
+                    <img src="images/creator-cover.jpg" alt="Creator Project @jeoseungirl">
+                </div>
+                <p class="card-desc">
+                    Built an organic K-Pop/Lifestyle community with <strong>227.3K+ Likes</strong> on TikTok. Created viral trend contents hitting <strong>1.3M views</strong> on TikTok and <strong>1.1M views</strong> on Reels.
+                </p>
+                <button class="btn btn-card" onclick="openModal('exp2-modal')">Detail Case Study</button>
+            </div>
+            
+            <!-- Exp 3: PT. Sama Sama -->
+            <div class="card">
+                <h3>PT. SAMA SAMA</h3>
+                <p class="card-subtitle">Social Media Officer (Jul 2023 - Oct 2023)</p>
+                <div class="card-img-placeholder">
+                    <img src="images/samasamayakiniku.jpg" alt="PT. Sama Sama">
+                </div>
+                <p class="card-desc">
+                    Managed end-to-end social media operations, content strategy, and influencer/KOL campaigns across <strong>4 hospitality & dining brand accounts</strong> under PT. Sama Sama.
+                </p>
+                <button class="btn btn-card" onclick="openModal('exp3-modal')">Detail Case Study</button>
+            </div>
+
+            <!-- Exp 4: Island Media -->
+            <div class="card">
+                <h3>ISLAND MEDIA</h3>
+                <p class="card-subtitle">Marketing Intern (Apr 2023 - Jul 2023)</p>
+                <div class="card-img-placeholder">
+                    <img src="images/islandmedia.jpeg" alt="Island Media">
+                </div>
+                <p class="card-desc">
+                    Developed agency content materials for hospitality/F&B clients, learned agency content workflow, graphic design basics, and Search Engine Optimization (SEO).
+                </p>
+                <button class="btn btn-card" onclick="openModal('exp4-modal')">Detail</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATES SECTION -->
+    <section id="certificates" class="certificates-section">
+        <h2 class="section-title">My <span class="text-pink">Certificates</span></h2>
+
+        <div class="cert-cards-grid">
+
+            <!-- Sertifikat 1: Zahir -->
+            <div class="cert-card" onclick="openCert('images/zahirbasisdata.jpg', 'Workshop Basis Data - Zahir')">
+                <div class="cert-card-thumb">
+                    <img src="images/zahirbasisdata.jpg" alt="Sertifikat Workshop Basis Data Zahir">
+                </div>
+                <div class="cert-card-body">
+                    <h3>Workshop Basis Data</h3>
+                    <span class="cert-card-issuer">Zahir Academic Partner</span>
+                    <span class="cert-card-date">31 Juli 2025</span>
+                </div>
+            </div>
+
+            <!-- Sertifikat 2: Skilvul -->
+            <div class="cert-card" onclick="openCert('images/skilvuluiux.jpg', 'Intro to UI/UX - Skilvul')">
+                <div class="cert-card-thumb">
+                    <img src="images/skilvuluiux.jpg" alt="Sertifikat Intro to UI/UX Skilvul">
+                </div>
+                <div class="cert-card-body">
+                    <h3>Intro to UI/UX</h3>
+                    <span class="cert-card-issuer">Skilvul</span>
+                    <span class="cert-card-date">30 Mei 2024</span>
+                </div>
+            </div>
+
+            <!-- Sertifikat 3: Bali WISE -->
+            <div class="cert-card" onclick="openCert('images/cert-baliwise.jpg', 'Certificate of Completion - Bali WISE')">
+                <div class="cert-card-thumb">
+                    <img src="images/cert-baliwise.jpg" alt="Bali WISE Certificate of Completion">
+                </div>
+                <div class="cert-card-body">
+                    <h3>Bali WISE Training Program</h3>
+                    <span class="cert-card-issuer">Bali WISE (R.O.L.E. Foundation)</span>
+                    <span class="cert-card-date">Januari - Juli 2023</span>
+                </div>
+            </div>
+
+            <!-- Sertifikat 4: UKK -->
+            <div class="cert-card" onclick="openCert('images/cert-smk-ukk.jpg', 'Sertifikat Uji Kompetensi - PT Bonet Utama')">
+                <div class="cert-card-thumb">
+                    <img src="images/cert-smk-ukk.jpg" alt="Sertifikat Uji Kompetensi PT Bonet Utama">
+                </div>
+                <div class="cert-card-body">
+                    <h3>Sertifikat Uji Kompetensi</h3>
+                    <span class="cert-card-issuer">PT Bonet Utama</span>
+                    <span class="cert-card-date">2 Juni 2022</span>
+                </div>
+            </div>
+
+            <!-- Sertifikat 5: PKL -->
+            <div class="cert-card" onclick="openCert('images/cert-smk-pkl.jpg', 'Sertifikat PKL - SMKN 4 Bogor')">
+                <div class="cert-card-thumb">
+                    <img src="images/cert-smk-pkl.jpg" alt="Sertifikat PKL SMKN 4 Bogor">
+                </div>
+                <div class="cert-card-body">
+                    <h3>Sertifikat PKL</h3>
+                    <span class="cert-card-issuer">SMKN 4 Bogor</span>
+                    <span class="cert-card-date">16 Juni 2022</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">Skills & <span class="text-pink">Tools Matrix</span></h2>
+        <div class="skills-grid">
+            <div class="skill-box">
+                <i class="fas fa-hashtag skill-icon"></i>
+                <h3>Social Media & Content</h3>
+                <p>Organic Strategy, Trendjacking, Copywriting, Content Calendar, KOL Management, Video & Photo Editing.</p>
+                <span class="badge">Meta Suite, TikTok Studio, CapCut, Canva</span>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-laptop-code skill-icon"></i>
+                <h3>Technical & IT Systems</h3>
+                <p>System Architecture (ERD, LRS, Flowchart, Class Diagram), SQL Database, Basic Web & Mobile Dev.</p>
+                <span class="badge">VS Code, XAMPP, MySQL, StarUML</span>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-palette skill-icon"></i>
+                <h3>UI/UX & Visual Design</h3>
+                <p>Website Portfolio Layouts, Instagram Carousel Feeds, Banner, Poster Promo.</p>
+                <span class="badge">Figma, Canva Pro</span>
+            </div>
+            <div class="skill-box">
+                <i class="fas fa-chart-line skill-icon"></i>
+                <h3>Analytics & Strategy</h3>
+                <p>Meta Insights, TikTok Analytics, Impression & Engagement Rate Evaluation, Competitor Research.</p>
+                <span class="badge">Excel, Google Sheets, Meta Insights</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Let's <span class="text-pink">Work Together!</span></h2>
+        <p class="contact-subtitle">Interested in collaborating or hiring? Feel free to reach out!</p>
+        <div class="contact-details">
+            <div class="c-info"><i class="fas fa-envelope"></i> izkazakiyyatun09@gmail.com</div>
+            <div class="c-info"><i class="fas fa-phone"></i> +62 857 1152 8289</div>
+            <div class="c-info"><i class="fas fa-location-dot"></i> Bogor, West Java, Indonesia</div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Izka Zakiyyatun Noer.</p>
+    </footer>
+
+    <!-- ==================== MODAL POP-UPS (DATA LENGKAP) ==================== -->
+
+    <!-- Modal Viewer Sertifikat -->
+    <div id="cert-viewer-modal" class="modal">
+        <div class="modal-content modal-large" style="text-align: center;">
+            <span class="close-btn" onclick="closeModal('cert-viewer-modal')">&times;</span>
+            <h2 id="cert-viewer-title" style="font-size: 1.1rem;"></h2>
+            <img id="cert-viewer-img" src="" alt="Sertifikat" class="cert-viewer-img">
+        </div>
+    </div>
+
+    <!-- Modal About -->
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('about-modal')">&times;</span>
+            <h2>About Izka Zakiyyatun Noer</h2>
+            <hr class="modal-divider">
+            <p><strong>The Data + Creative Hybrid Professional</strong></p>
+            <p>
+                Izka Zakiyyatun Noer is an Information Systems student (GPA 3.90+) who has been actively working in Social Media Management since 2023 and Content Creation since 2024. She combines the structured, analytical mindset of IT (system modeling, database architecture, statistical analysis) with creative storytelling, trend sensitivity, and organic content optimization.
+            </p>
+            <p><strong>Key Highlights:</strong></p>
+            <ul>
+                <li>Scaled EB Home Decor & Living Instagram organic followers by <strong>+238%</strong> (from 9K to 30.5K+ followers).</li>
+                <li>Created viral organic TikTok & Reels content reaching up to <strong>1.3 Million views</strong>.</li>
+                <li>Pioneer scholarship awardee at Bali Wise in Digital Marketing with 100% attendance.</li>
+                <li>Dual role in IT academic projects as System Designer (ERD/LRS) and Creative Lead.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal Edu 1: SMKN 4 Bogor -->
+    <div id="edu1-modal" class="modal">
+        <div class="modal-content modal-large">
+            <span class="close-btn" onclick="closeModal('edu1-modal')">&times;</span>
+            <h2>SMKN 4 Bogor — Software Engineering</h2>
+            <p class="text-pink">Graduated 2022 | Software Engineering & PKL Certification</p>
+            <hr class="modal-divider">
+            
+            <div class="cert-container">
+                <div class="cert-info">
+                    <p><strong>Vocational Competency Assessment (UKK):</strong></p>
+                    <ul>
+                        <li>Status: <strong>COMPETENT (Final Score: 86/100)</strong> tested directly by PT Bonet Utama.</li>
+                        <li><strong>Key Competencies Assessed:</strong> User Interface Design, Entity-Relationship Diagram (ERD), SQL Database, Structured & OOP Programming, Program Debugging.</li>
+                    </ul>
+                    <p><strong>PT Bonet Utama Internship Score Breakdown:</strong></p>
+                    <ul>
+                        <li>Multiuser Environment: <strong>80</strong> | CRUD: <strong>80</strong></li>
+                        <li>SQL Database: <strong>80</strong> | Library Integration: <strong>80</strong></li>
+                        <li>Technical Journal Assessment: <strong>80</strong></li>
+                    </ul>
+                </div>
+                
+                <!-- Galeri 4 Sertifikat & Transkrip SMKN 4 -->
+                <div class="cert-image-wrapper">
+                    <div class="cert-grid-4">
+                        <img src="images/cert-smk-pkl.jpg" alt="Sertifikat PKL SMKN 4 Bogor" class="cert-img">
+                        <img src="images/cert-smk-ukk.jpg" alt="Sertifikat UKK PT Bonet Utama" class="cert-img">
+                        <img src="images/cert-smk-unit.jpg" alt="Daftar Unit Kompetensi UKK" class="cert-img">
+                        <img src="images/cert-smk-transkrip.jpg" alt="Transkrip Penilaian Teknis PT Bonet" class="cert-img">
+                    </div>
+                    <span class="cert-caption"><i class="fas fa-certificate"></i> Official UKK & PKL Certification Documents</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Edu 2: Bali Wise -->
+    <div id="edu2-modal" class="modal">
+        <div class="modal-content modal-large">
+            <span class="close-btn" onclick="closeModal('edu2-modal')">&times;</span>
+            
+            <!-- BALI WISE COVER BANNER -->
+            <div class="doc-cover-box">
+                <img src="images/baliwise-cover.jpg" alt="Bali WISE Graduation Ceremony" class="doc-cover-img">
+                <div class="doc-cover-overlay">
+                    <span class="doc-badge"><i class="fas fa-graduation-cap"></i> Official Graduation Ceremony</span>
+                    <h2>Bali WISE (R.O.L.E. Foundation)</h2>
+                    <p>Full Scholarship Awardee | Pioneer Student (Batch 1 Digital Marketing)</p>
+                </div>
+            </div>
+
+            <!-- ISI DETAIL MODAL -->
+            <div class="cert-container">
+                <div class="cert-info">
+                    <p><strong>Academic Final Report Highlights (100% Attendance):</strong></p>
+                    <ul>
+                        <li>Social Media Marketing: <strong>87.60 (Grade A)</strong></li>
+                        <li>Front Office & Housekeeping: <strong>88.80 / 89.50 (Grade A)</strong></li>
+                        <li>Financial Management & Computer: <strong>88.80 / 88.00 (Grade A)</strong></li>
+                        <li>Design Graphic & Social Media Ads: <strong>85.00 / 85.95 (Grade B)</strong></li>
+                        <li>Digital Marketing Strategy: <strong>80.50 (Grade B)</strong></li>
+                    </ul>
+                    <div class="case-study-box" style="margin-top: 15px;">
+                        <p style="margin-bottom: 0;">💬 <strong>Instructor Evaluation:</strong><br>
+                        <em>"Izka is a lively pupil who is keen to participate during class discussion. She always listens carefully, puts full effort into tasks, and shows great perspective."</em></p>
+                    </div>
+                </div>
+
+                <!-- Gambar Sertifikat Resmi & Final Report -->
+                <div class="cert-image-wrapper">
+                    <div class="cert-gallery">
+                        <img src="images/cert-baliwise.jpg" alt="Bali WISE Certificate of Completion" class="cert-img">
+                        <img src="images/finalreport-baliwise.jpg" alt="Bali WISE Final Report Grades" class="cert-img">
+                    </div>
+                    <span class="cert-caption"><i class="fas fa-certificate"></i> Official Certificate & Final Report</span>
+                </div>
+            </div>
+
+            <!-- DOKUMENTASI KEGIATAN & SOSIAL -->
+            <div class="activity-section">
+                <p><strong>Program Activities & Community Engagement:</strong></p>
+                <div class="activity-grid">
+                    <div class="act-card">
+                        <img src="images/baliwise-beach.jpg" alt="Beach Cleanup Activity">
+                        <span>Beach Cleanup & Environmental Action</span>
+                    </div>
+                    <div class="act-card">
+                        <img src="images/baliwise-class.jpg" alt="In-Class Workshop">
+                        <span>Vocational Training & Team Projects</span>
+                    </div>
+                    <div class="act-card">
+                        <img src="images/baliwise-group.jpg" alt="Bali WISE Batch 1 Group">
+                        <span>Bali WISE Pioneer Student Cohort</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- Modal Edu 3: BSI University -->
+    <div id="edu3-modal" class="modal">
+        <div class="modal-content modal-large">
+            <span class="close-btn" onclick="closeModal('edu3-modal')">&times;</span>
+            <h2>BSI University — Information Systems</h2>
+            <p class="text-pink">S1 Student | Cumulative GPA: 3.90+</p>
+            <hr class="modal-divider">
+
+            <!-- BANNER COVER AKADEMIK BSI -->
+            <div class="doc-cover-box">
+                <img src="images/bsi-cover.jpg" alt="Academic Presentation BSI University" class="doc-cover-img">
+                <div class="doc-cover-badge"><i class="fas fa-university"></i> Project-Based Learning & Academic Showcase</div>
+            </div>
+
+            <p><strong>Academic & Project-Based Learning (PBL) Achievements:</strong></p>
+            <ul>
+                <li><strong>Technical System Designer:</strong> Responsible for mapping out Business Flowcharts, Entity-Relationship Diagrams (ERD), Logical Relation Structures (LRS), and Class Diagrams for web/mobile group projects.</li>
+                <li><strong>Creative & Presentation Lead:</strong> Designed group promotional flyers, posters, banners, and led Business Intelligence (BI) academic presentations.</li>
+            </ul>
+            <p><strong>Key Coursework (Semesters 1 - 4):</strong> Web Programming I & II, Software Quality Assurance (SQA), Mobile Programming, Business Intelligence, Data Structures, Object-Oriented Programming (OOP), Systems Analysis & Design.</p>
+
+            <!-- DOKUMENTASI KEGIATAN KELOMPOK BSI -->
+            <div class="activity-section">
+                <p><strong>Academic Collaboration & Project Highlights:</strong></p>
+                <div class="activity-grid">
+                    <div class="act-card">
+                        <img src="images/bsi-pres.jpg" alt="Business Intelligence Presentation">
+                        <span>Business Intelligence Presentation</span>
+                    </div>
+                    <div class="act-card">
+                        <img src="images/bsi-team.jpg" alt="Project Based Learning Group Session">
+                        <span>System Design & Coding Team Session</span>
+                    </div>
+                    <div class="act-card">
+                        <img src="images/bsi-cover.jpg" alt="Lecturer & Group Documentation">
+                        <span>PBL Final Defense & Lecturer Photo</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal Exp 1: EB Home Decor -->
+    <div id="exp1-modal" class="modal">
+        <div class="modal-content modal-large">
+            <span class="close-btn" onclick="closeModal('exp1-modal')">&times;</span>
+
+            <!-- EB HOME BANNER COVER -->
+            <div class="doc-cover-box" style="background-color: #111; text-align: center; padding: 30px 20px;">
+                <img src="images/eb-home-logo.png" alt="EB Home Decor & Living" style="max-height: 90px; width: auto; margin-bottom: 10px;">
+                <div class="doc-cover-overlay" style="position: relative; background: transparent; padding: 0;">
+                    <span class="doc-badge" style="background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.2);"><i class="fas fa-store"></i> Home Decor & Living Retail</span>
+                    <h2 style="color: #fff; margin-top: 5px;">Social Media Specialist Campaign</h2>
+                    <p style="color: #d1c5c0;">November 2023 - Present | Organic Growth & Regional Media Hub</p>
+                </div>
+            </div>
+            
+            <hr class="modal-divider">
+            <p><strong>End-to-End Content Production & Creative Direction:</strong></p>
+            <ul>
+                <li><strong>Full Ownership Carousel & Graphic Feeds:</strong> Merancang dan mendesain feeds carousel statis/edukatif secara mandiri dari ide hingga visual final.</li>
+                <li><strong>Creative Direction for Video Content:</strong> Menyusun konsep/skrip video, mengarahkan videografer saat proses <em>shooting</em> di lokasi/showroom, lalu mengeksekusi proses <em>editing</em> (CapCut), <em>voice-over</em>, hingga <em>final cut</em> siap tayang.</li>
+                <li><strong>Paid Ads vs Organic Reels Strategy:</strong> Membedakan pendekatan visual untuk kebutuhan konten <em>Organic Reels</em> (fokus estetika, tren, & <em>awareness</em>) dan <em>Meta Paid Ads</em> (fokus <em>hook</em>, <em>product benefit</em>, & <em>conversion</em>).</li>
+                <li><strong>Daily Social Media Operations:</strong> Mengoperasikan <em>Meta Business Suite</em>, menyusun <em>content calendar</em> di Spreadsheet, serta memantau analisis metrik bulanan.</li>
+            </ul>
+
+            <!-- DATA METRIC CARDS -->
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <i class="fas fa-users metric-icon"></i>
+                    <div class="metric-value">+238%</div>
+                    <div class="metric-label">Organic Follower Growth (9K ➔ 30.5K+)</div>
+                </div>
+                <div class="metric-card">
+                    <i class="fas fa-film metric-icon"></i>
+                    <div class="metric-value">215+</div>
+                    <div class="metric-label">New Video Content Published</div>
+                </div>
+                <div class="metric-card">
+                    <i class="fas fa-eye metric-icon"></i>
+                    <div class="metric-value">90.6K+</div>
+                    <div class="metric-label">Peak Organic Reels Reach</div>
+                </div>
+            </div>
+
+            <!-- TOP INSTAGRAM REELS PRODUCED BY IZKA -->
+            <p style="margin-top: 20px;"><strong>Top 3 Instagram Reels Produced by Me:</strong></p>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/eb-ig1.jpg" alt="EB Home IG Reel 1">
+                </div>
+                <div class="video-desc-area">
+                    <h4>1. Instagram Reel Spotlight #1</h4>
+                    <p>Produksi konten video kreatif untuk produk home decor pilihan dengan konsep visual yang estetik dan informatif.</p>
+                    <a href="https://www.instagram.com/reel/DMhmPj6RLP_/?igsi=YWo1ZnoxbHpvcmhq" target="_blank" class="btn btn-live">
+                        <i class="fab fa-instagram"></i> Watch Instagram Reel 1
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/eb-ig2.jpg" alt="EB Home IG Reel 2">
+                </div>
+                <div class="video-desc-area">
+                    <h4>2. Instagram Reel Spotlight #2</h4>
+                    <p>Eksplorasi penataan interior ruang tamu dan furnitur unggulan untuk meningkatkan interaksi audiens.</p>
+                    <a href="https://www.instagram.com/reel/DVsqW8CkecY/?igsi=N254eXhycmx5ZXpw" target="_blank" class="btn btn-live">
+                        <i class="fab fa-instagram"></i> Watch Instagram Reel 2
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/eb-ig3.jpg" alt="EB Home IG Reel 3">
+                </div>
+                <div class="video-desc-area">
+                    <h4>3. Instagram Reel Spotlight #3</h4>
+                    <p>Kampanye estetika ruang dengan pendekatan tren dekorasi rumah modern klasik dan Japandi.</p>
+                    <a href="https://www.instagram.com/reel/C9E1wyyvPPR/?igsi=MWd5b2Zwamx0dzNieQ==" target="_blank" class="btn btn-live">
+                        <i class="fab fa-instagram"></i> Watch Instagram Reel 3
+                    </a>
+                </div>
+            </div>
+
+            <!-- TOP TIKTOK VIDEOS PRODUCED BY IZKA -->
+            <p style="margin-top: 25px;"><strong>Top 3 TikTok Videos Produced by Me:</strong></p>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/eb-tt1.jpg" alt="EB Home TikTok 1">
+                </div>
+                <div class="video-desc-area">
+                    <h4>1. Top TikTok Video #1</h4>
+                    <p>Optimalisasi konten video pendek di platform TikTok dengan *hook* dinamis khas brand home decor.</p>
+                    <a href="https://vt.tiktok.com/ZSVgnScHK/" target="_blank" class="btn btn-live">
+                        <i class="fab fa-tiktok"></i> Watch TikTok Video 1
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/eb-tt2.jpg" alt="EB Home TikTok 2">
+                </div>
+                <div class="video-desc-area">
+                    <h4>2. Top TikTok Video #2</h4>
+                    <p>Konten interaktif seputar inspirasi tata letak ruang rumah dan rekomendasi produk unggulan.</p>
+                    <a href="https://vt.tiktok.com/ZSVgnVdVY/" target="_blank" class="btn btn-live">
+                        <i class="fab fa-tiktok"></i> Watch TikTok Video 2
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/eb-tt3.jpg" alt="EB Home TikTok 3">
+                </div>
+                <div class="video-desc-area">
+                    <h4>3. Top TikTok Video #3</h4>
+                    <p>Eksplorasi visual dan penceritaan produk yang mendulang interaksi dan *engagement* tinggi dari pengguna.</p>
+                    <a href="https://vt.tiktok.com/ZSVgn4ccv/" target="_blank" class="btn btn-live">
+                        <i class="fab fa-tiktok"></i> Watch TikTok Video 3
+                    </a>
+                </div>
+            </div>
+
+            <!-- SECTION: REGIONAL MEDIA COLLABORATIONS & PUBLICATIONS -->
+            <div class="collab-section" style="margin-top: 35px; border-top: 2px dashed var(--border-color); padding-top: 20px;">
+                <h3 style="color: var(--text-dark); font-size: 1.1rem; margin-bottom: 10px;"><i class="fas fa-newspaper text-pink"></i> Regional Media Collaborations & Publications</h3>
+                <p style="font-size: 0.85rem; color: #635352; margin-bottom: 15px;">
+                    Berhasil menjalin kerja sama strategis dan peliputan kampanye bersama akun media informasi regional serta media penyiaran terkemuka.
+                </p>
+
+                <!-- KOTAK: PANTAI INDAH KAPUK UPDATE -->
+                <div class="case-study-box" style="margin-top: 15px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <h4 style="margin-bottom: 0;"><i class="fas fa-bullhorn text-pink"></i> @pantaiindahkapuk.update</h4>
+                        <div class="brand-badge-logo" style="background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; color: var(--text-dark);">
+                            REGIONAL MEDIA PARTNER
+                        </div>
+                    </div>
+                    <p style="font-size: 0.83rem; color: #554847; margin-bottom: 12px;">
+                        Kolaborasi publikasi konten Reels untuk memperkuat eksposur *brand* di kawasan regional PIK.
+                    </p>
+                    <div class="listerine-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+                        <div class="act-card">
+                            <img src="images/pik-up1.jpg" alt="PIK Update 1">
+                            <span>Reel 1</span>
+                            <a href="https://www.instagram.com/reel/C0x6YQOr3pw/?igsi=czJiY2FxOXN3NHdv" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/pik-up2.jpg" alt="PIK Update 2">
+                            <span>Reel 2</span>
+                            <a href="https://www.instagram.com/reel/DLRPXaoTHsr/?igsi=MXF6Ym9uMHExaDRsaw==" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/pik-up3.jpg" alt="PIK Update 3">
+                            <span>Reel 3</span>
+                            <a href="https://www.instagram.com/reel/DB0Sbn3OAD-/?igsi=MWt5bWxvb2FweHFzZw==" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/pik-up4.jpg" alt="PIK Update 4">
+                            <span>Reel 4</span>
+                            <a href="https://www.instagram.com/reel/DO7kIyekyA_/?igsi=MXl2ZDRoMjdjdmY4" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KOTAK: EVENT PIK -->
+                <div class="case-study-box" style="margin-top: 15px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <h4 style="margin-bottom: 0;"><i class="fas fa-bullhorn text-pink"></i> @eventpik</h4>
+                        <div class="brand-badge-logo" style="background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; color: var(--text-dark);">
+                            EVENT MEDIA PARTNER
+                        </div>
+                    </div>
+                    <p style="font-size: 0.83rem; color: #554847; margin-bottom: 12px;">
+                        Publikasi agenda acara dan kampanye khusus wilayah Pantai Indah Kapuk.
+                    </p>
+                    <div class="listerine-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+                        <div class="act-card">
+                            <img src="images/eventpik1.jpg" alt="Event PIK 1">
+                            <span>Reel 1</span>
+                            <a href="https://www.instagram.com/reel/C2g7k3nyV4L/?igsi=MTdjOXdrZTE0NjByZg==" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/eventpik2.jpg" alt="Event PIK 2">
+                            <span>Reel 2</span>
+                            <a href="https://www.instagram.com/reel/DTxTQw-D7-p/?igsi=MXBuYWNvaHJzZG12Yw==" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/eventpik3.jpg" alt="Event PIK 3">
+                            <span>Reel 3</span>
+                            <a href="https://www.instagram.com/reel/DCBtEBbN6I3/?igsi=NzNud2w2aGI3M2U1" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/eventpik4.jpg" alt="Event PIK 4">
+                            <span>Post 4</span>
+                            <a href="https://www.instagram.com/p/DQ1VB1ADxTR/?igsi=MW0xZTN3NDN4OWRjaw==" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KOTAK LAINNYA DENGAN THUMBNAIL GRID -->
+                <div class="case-study-box" style="margin-top: 15px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <h4 style="margin-bottom: 0;"><i class="fas fa-star text-pink"></i> Other Major Regional Media Highlights</h4>
+                        <div class="brand-badge-logo" style="background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; color: var(--text-dark);">
+                            URBAN MEDIA NETWORK
+                        </div>
+                    </div>
+                    <p style="font-size: 0.83rem; color: #554847; margin-bottom: 12px;">
+                        Liputan dan penayangan kampanye brand bersama jaringan media urban terkemuka:
+                    </p>
+                    <div class="listerine-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+                        <div class="act-card">
+                            <img src="images/media-jktgo.jpg" alt="JKTGO">
+                            <span>@jktgo</span>
+                            <a href="https://www.instagram.com/reel/DTUVa5NEu6Q/?igsi=aHBmZXo4Y2ttb2ls" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/media-pik2aja.jpg" alt="PIK2Aja">
+                            <span>@pik2aja</span>
+                            <a href="https://www.instagram.com/reel/DEmobsuSYFM/?igsi=Y2hiaXJiZTV0NjVv" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/media-jktverified.jpg" alt="JKT Verified">
+                            <span>@jkt.verified</span>
+                            <a href="https://www.instagram.com/reel/DcGg9SMJPdK/?igsi=eGt6dmdscTRneDh1" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/media-kabarpik.jpg" alt="Kabar PIK">
+                            <span>@kabarpik</span>
+                            <a href="https://www.instagram.com/reel/DDUIEP1MyJW/?igsi=YWU3c3QxaDR5cjVq" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/media-daai.jpg" alt="DAAI Mandarin">
+                            <span>@daai_mandarin</span>
+                            <a href="https://www.instagram.com/reel/DUsNuRdE3fV/?igsi=eHA2aWRoM2xhZGI0" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div> <!-- PENUTUP MODAL EXP 1 YANG SEBELUMNYA KURANG -->
+
+    <!-- Modal Exp 2: Creator Account -->
+    <div id="exp2-modal" class="modal">
+        <div class="modal-content modal-large">
+            <span class="close-btn" onclick="closeModal('exp2-modal')">&times;</span>
+            
+            <!-- CREATOR BANNER COVER -->
+            <div class="doc-cover-box">
+                <img src="images/creator-cover.jpg" alt="Niche Community Creator @jeoseungirl" class="doc-cover-img">
+                <div class="doc-cover-overlay">
+                    <span class="doc-badge"><i class="fab fa-tiktok"></i> @jeoseungirl Community Project</span>
+                    <h2>Niche Community Creator</h2>
+                    <p>K-Pop & Lifestyle Organic Content Creator (2024 - Present)</p>
+                </div>
+            </div>
+
+            <!-- DATA METRIC CARDS -->
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <i class="fas fa-heart metric-icon"></i>
+                    <div class="metric-value">227.3K+</div>
+                    <div class="metric-label">Total TikTok Likes</div>
+                </div>
+                <div class="metric-card">
+                    <i class="fas fa-fire metric-icon"></i>
+                    <div class="metric-value">1.3M+</div>
+                    <div class="metric-label">Top Viral Video Views</div>
+                </div>
+                <div class="metric-card">
+                    <i class="fas fa-chart-line metric-icon"></i>
+                    <div class="metric-value">100%</div>
+                    <div class="metric-label">Organic Community Growth</div>
+                </div>
+            </div>
+
+            <p><strong>Top Performing TikTok Videos:</strong></p>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/tiktok-vid1.jpg" alt="TikTok Cover 1">
+                </div>
+                <div class="video-desc-area">
+                    <h4>1. Top TikTok Spotlight #1</h4>
+                    <p>Konten komunitas K-Pop dengan interaksi audiens yang masif dan tingkat *engagement* tinggi.</p>
+                    <a href="https://vt.tiktok.com/ZSVCnWgGd/" target="_blank" class="btn btn-live">
+                        <i class="fab fa-tiktok"></i> Watch TikTok Video 1
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/tiktok-vid2.jpg" alt="TikTok Cover 2">
+                </div>
+                <div class="video-desc-area">
+                    <h4>2. Top TikTok Spotlight #2</h4>
+                    <p>Eksplorasi tren dan topik hangat seputar idola K-Pop yang mendulang tayangan organik tinggi.</p>
+                    <a href="https://vt.tiktok.com/ZSVCWdVqS/" target="_blank" class="btn btn-live">
+                        <i class="fab fa-tiktok"></i> Watch TikTok Video 2
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/tiktok-vid3.jpg" alt="TikTok Cover 3">
+                </div>
+                <div class="video-desc-area">
+                    <h4>3. Top TikTok Spotlight #3</h4>
+                    <p>Strategi kreatif pemanfaatan audio dan visual tren bagi komunitas penggemar.</p>
+                    <a href="https://vt.tiktok.com/ZSVCncxmd/" target="_blank" class="btn btn-live">
+                        <i class="fab fa-tiktok"></i> Watch TikTok Video 3
+                    </a>
+                </div>
+            </div>
+
+            <p style="margin-top: 25px;"><strong>Top Performing Instagram Reels:</strong></p>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/reels-vid1.jpg" alt="Reels Cover 1">
+                </div>
+                <div class="video-desc-area">
+                    <h4>1. Top Reels Spotlight #1</h4>
+                    <p>Video reels interaktif dengan estetika visual khas akun kreator *niche*.</p>
+                    <a href="https://www.instagram.com/reel/DG0mrkfTCHf/?igsi=MXhlNmhkY291NHFnag==" target="_blank" class="btn btn-live">
+                        <i class="fab fa-instagram"></i> Watch Instagram Reel 1
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/reels-vid2.jpg" alt="Reels Cover 2">
+                </div>
+                <div class="video-desc-area">
+                    <h4>2. Top Reels Spotlight #2</h4>
+                    <p>Konten penjangkauan audiens (*reach*) luas yang mendatangkan interaksi lintas platform.</p>
+                    <a href="https://www.instagram.com/reel/DHm1XgPTWiQ/?igsi=a3o2ZG9wcTA0aTU4" target="_blank" class="btn btn-live">
+                        <i class="fab fa-instagram"></i> Watch Instagram Reel 2
+                    </a>
+                </div>
+            </div>
+
+            <div class="case-study-box video-box-flex">
+                <div class="video-thumbnail">
+                    <img src="images/reels-vid3.jpg" alt="Reels Cover 3">
+                </div>
+                <div class="video-desc-area">
+                    <h4>3. Top Reels Spotlight #3</h4>
+                    <p>Dokumentasi tren kreatif dan penulisan takarir (*caption*) yang relevan dengan komunitas.</p>
+                    <a href="https://www.instagram.com/reel/DVss8rUk03c/?igsi=MWhzZjN6eWx1YXlheQ==" target="_blank" class="btn btn-live">
+                        <i class="fab fa-instagram"></i> Watch Instagram Reel 3
+                    </a>
+                </div>
+            </div>
+
+            <!-- SECTION: BRAND COLLABORATIONS & MEDIA PARTNERSHIPS -->
+            <div class="collab-section" style="margin-top: 30px; border-top: 2px dashed var(--border-color); padding-top: 20px;">
+                <h3 style="color: var(--text-dark); font-size: 1.1rem; margin-bottom: 10px;"><i class="fas fa-handshake text-pink"></i> Brand Collaborations & Media Partnerships</h3>
+                <p style="font-size: 0.85rem; color: #635352; margin-bottom: 15px;">
+                    Dipercaya oleh brand ternama untuk kampanye produk berbayar (*paid partnership*) serta menjadi official media partner untuk berbagai <i>event</i> komunitas.
+                </p>
+                
+                <!-- KOTAK KASUS KOLABORASI: LISTERINE -->
+                <div class="case-study-box">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <h4 style="margin-bottom: 0;"><i class="fas fa-bullhorn text-pink"></i> Featured Collab: Listerine Campaign</h4>
+                        <div class="brand-badge-logo" style="background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; color: var(--text-dark);">
+                            <i class="fas fa-shield-alt text-pink"></i> LISTERINE
+                        </div>
+                    </div>
+                    <p style="font-size: 0.83rem; color: #554847; margin-bottom: 12px;">
+                        Menjalankan kampanye konten kreatif berbayar dengan memproduksi total <strong>4 video <i>mirroring</i></strong> (dipublikasikan serentak di Instagram Reels dan TikTok) yang disesuaikan secara organik dengan gaya bahasa dan estetika audiens fandom.
+                    </p>
+                    <div class="case-stats" style="margin-bottom: 15px;">
+                        <span><i class="fab fa-tiktok"></i> 4 TikTok Videos</span>
+                        <span><i class="fab fa-instagram"></i> 4 Instagram Reels</span>
+                        <span><i class="fas fa-sync-alt"></i> Cross-Platform Strategy</span>
+                    </div>
+
+                    <!-- GRID 4 THUMBNAIL VIDEO LISTERINE -->
+                    <p style="font-size: 0.8rem; font-weight: 600; color: var(--text-dark); margin-bottom: 8px;">Preview & Link Video Kolaborasi:</p>
+                    <div class="listerine-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+                        <div class="act-card">
+                            <img src="images/listerine-vid1.jpg" alt="Listerine Video 1">
+                            <span>Video 1</span>
+                            <a href="https://www.instagram.com/reel/DYhjroTzFXQ/?igsi=MXFrNnJjMGRjN3k3bQ==" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/listerine-vid2.jpg" alt="Listerine Video 2">
+                            <span>Video 2</span>
+                            <a href="https://www.instagram.com/reel/DYoYoKoznLJ/?igsi=bWlnbDFrYWxpY2Fi" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/listerine-vid3.jpg" alt="Listerine Video 3">
+                            <span>Video 3</span>
+                            <a href="https://vt.tiktok.com/ZSVV3vkyh/" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/listerine-vid4.jpg" alt="Listerine Video 4">
+                            <span>Video 4</span>
+                            <a href="https://vt.tiktok.com/ZSVVTmL3R/" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KOTAK KASUS KOLABORASI: NAEMSAE PARFUME -->
+                <div class="case-study-box" style="margin-top: 15px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <h4 style="margin-bottom: 0;"><i class="fas fa-bullhorn text-pink"></i> Naemsae Parfume Campaign</h4>
+                        <div class="brand-badge-logo" style="background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; color: var(--text-dark);">
+                            <i class="fas fa-spray-can text-pink"></i> NAEMSAE
+                        </div>
+                    </div>
+                    <p style="font-size: 0.83rem; color: #554847; margin-bottom: 12px;">
+                        Kolaborasi konten promosi produk parfum dengan memproduksi 3 video Instagram Reels ber-<i>engagement</i> tinggi yang dikemas secara estetis sesuai selera audiens.
+                    </p>
+                    <div class="listerine-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+                        <div class="act-card">
+                            <img src="images/naemsae-vid1.jpg" alt="Naemsae 1">
+                            <span>Reel 1</span>
+                            <a href="https://www.instagram.com/reel/DOXUCiICBjL/?igsi=ZGFpYWk0ZjJhcmx6" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/naemsae-vid2.jpg" alt="Naemsae 2">
+                            <span>Reel 2</span>
+                            <a href="https://www.instagram.com/reel/DOTpM1Wk0IO/?igsi=MXBrNXZqOHlmcTAyZQ==" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/naemsae-vid3.jpg" alt="Naemsae 3">
+                            <span>Reel 3</span>
+                            <a href="https://www.instagram.com/reel/DOOC837kfK3/?igsi=dGRjdHhrOHBxemc0" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KOTAK KASUS KOLABORASI: ETHEREALK -->
+                <div class="case-study-box" style="margin-top: 15px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <h4 style="margin-bottom: 0;"><i class="fas fa-bullhorn text-pink"></i> EthérealK Campaign</h4>
+                        <div class="brand-badge-logo" style="background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; color: var(--text-dark);">
+                            <i class="fas fa-gem text-pink"></i> ETHEREALK
+                        </div>
+                    </div>
+                    <p style="font-size: 0.83rem; color: #554847; margin-bottom: 12px;">
+                        Kampanye lintas platform (Cross-platform) melalui Instagram Reels dan TikTok untuk memperluas jangkauan promosi produk secara organik.
+                    </p>
+                    <div class="listerine-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+                        <div class="act-card">
+                            <img src="images/etherealk-ig.jpg" alt="EthérealK IG">
+                            <span>Instagram Reel</span>
+                            <a href="https://www.instagram.com/reel/DPEoRm3kw6a/?igsi=MW1odXN1MHZ2aWZubg==" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/etherealk-tt.jpg" alt="EthérealK TikTok">
+                            <span>TikTok Video</span>
+                            <a href="https://vt.tiktok.com/ZSVq1HXBF/" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KOTAK KASUS KOLABORASI: DAEBAK CASE KPOP -->
+                <div class="case-study-box" style="margin-top: 15px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <h4 style="margin-bottom: 0;"><i class="fas fa-bullhorn text-pink"></i> Daebak Case Kpop Campaign</h4>
+                        <div class="brand-badge-logo" style="background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; color: var(--text-dark);">
+                            <i class="fas fa-mobile-alt text-pink"></i> DAEBAK CASE
+                        </div>
+                    </div>
+                    <p style="font-size: 0.83rem; color: #554847; margin-bottom: 12px;">
+                        Menampilkan produk *merchandise/case* bertema K-Pop melalui konten Instagram Reels yang sangat relevan dengan ketertarikan komunitas (*fandom*).
+                    </p>
+                    <div class="listerine-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+                        <div class="act-card">
+                            <img src="images/daebak-vid1.jpg" alt="Daebak Case">
+                            <span>Instagram Reel</span>
+                            <a href="https://www.instagram.com/reel/DMfoEYDzfcj/?igsi=MWNybTA0ajByaGZvMA==" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KOTAK KASUS: MEDIA PARTNER FANBASE -->
+                <div class="case-study-box" style="margin-top: 15px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                        <h4 style="margin-bottom: 0;"><i class="fas fa-handshake text-pink"></i> Official Media Partner Events</h4>
+                        <div class="brand-badge-logo" style="background: #ffffff; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 700; color: var(--text-dark);">
+                            <i class="fas fa-users text-pink"></i> FANBASE PARTNER
+                        </div>
+                    </div>
+                    <p style="font-size: 0.83rem; color: #554847; margin-bottom: 12px;">
+                        Dipercaya sebagai <i>Official Media Partner</i> untuk proyek acara dan kampanye komunitas dari fanbase terkemuka seperti <strong>@ever_jakarta</strong> dan <strong>@heevanlee_project</strong>.
+                    </p>
+                    <div class="listerine-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px;">
+                        <div class="act-card">
+                            <img src="images/media-ever.jpg" alt="Ever Jakarta Media Partner">
+                            <span>Ever Jakarta</span>
+                            <a href="https://www.instagram.com/p/DZ7vRUBE7Mi/?img_index=1" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View Post <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/media-heevan.jpg" alt="Heevanlee Project Media Partner">
+                            <span>Heevanlee Project</span>
+                            <a href="https://www.instagram.com/p/DZTZysDhZXI/" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">View Post <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="act-card">
+                            <img src="images/media-tiktok.jpg" alt="Fanbase TikTok Coverage">
+                            <span>TikTok Coverage</span>
+                            <a href="https://www.tiktok.com/@jeoseungirl/video/7646086819439709447" target="_blank" class="btn btn-live" style="font-size: 0.7rem; padding: 3px 6px; margin: 4px 6px 6px 6px; display: block; text-align: center;">Watch <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GRID LOGO BRAND / MEDIA PARTNER -->
+                <div class="brand-logo-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-top: 15px;">
+                    <div class="brand-logo-box" style="background: #FAF6F0; border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center; font-size: 0.75rem; font-weight: 600; color: var(--text-dark);">
+                        <i class="fas fa-star text-pink"></i> Listerine
+                    </div>
+                    <div class="brand-logo-box" style="background: #FAF6F0; border: 1px solid var(--border-color); border-radius: 6px; padding: 12px; text-align: center; font-size: 0.75rem; font-weight: 600; color: #888;">
+                        Media Partner Event
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div> <!-- PENUTUP MODAL EXP 2 -->
+    
+    <!-- Modal Exp 3: PT. Sama Sama -->
+    <div id="exp3-modal" class="modal">
+        <div class="modal-content modal-large">
+            <span class="close-btn" onclick="closeModal('exp3-modal')">&times;</span>
+            <h2>PT. Sama Sama</h2>
+            <p class="text-pink">Social Media Officer (Jul 2023 - Oct 2023)</p>
+            <hr class="modal-divider">
+
+            <p style="font-size: 0.9rem; color: #554847; margin-bottom: 20px;">
+                Bertanggung jawab dalam pengelolaan operasional media sosial, perancangan strategi konten, serta manajemen kolaborasi <em>Influencer/KOL</em> untuk 4 akun unit bisnis kuliner dan hospitality di bawah naungan PT. Sama Sama.
+            </p>
+
+            <p><strong>Managed Brand Instagram Accounts:</strong></p>
+
+        <!-- Akun 1 -->
+        <div class="case-study-box video-box-flex">
+            <div class="video-thumbnail logo-thumb">
+                <img src="images/samasamasuites.jpg" alt="Logo Sama Sama Suites & Restaurant">
+            </div>
+            <div class="video-desc-area">
+                <h4>1. Sama Sama Suites & Resto</h4>
+                <p>Pengelolaan konten branding dining & hospitality suite, informasi reservasi, dan promosi pengalaman kuliner premium.</p>
+                <a href="https://www.instagram.com/samasamasuitesandrestaurant/" target="_blank" class="btn btn-live">
+                    <i class="fab fa-instagram"></i> @samasamasuitesandrestaurant
+                </a>
+            </div>
+        </div>
+
+        <!-- Akun 2 -->
+        <div class="case-study-box video-box-flex">
+            <div class="video-thumbnail logo-thumb">
+                <img src="images/samasamayakiniku.jpg" alt="Logo Yakiniku Sama Sama">
+            </div>
+            <div class="video-desc-area">
+                <h4>2. Yakiniku Sama Sama</h4>
+                <p>Penyusunan feed harian, eksekusi promosi menu Japanese BBQ, serta riset & jangkauan kolaborasi KOL/Influencer.</p>
+                <a href="https://www.instagram.com/yakinikusamasama/" target="_blank" class="btn btn-live">
+                    <i class="fab fa-instagram"></i> @yakinikusamasama
+                </a>
+            </div>
+        </div>
+
+        <!-- Akun 3 -->
+        <div class="case-study-box video-box-flex">
+            <div class="video-thumbnail logo-thumb">
+                <img src="images/yoroi.jpg" alt="Logo Yoroi ID">
+            </div>
+            <div class="video-desc-area">
+                <h4>3. Yoroi ID</h4>
+                <p>Pengembangan identitas visual dan kampanye promosi produk/kuliner khas untuk meningkatkan brand awareness.</p>
+                <a href="https://www.instagram.com/yoroi.id/" target="_blank" class="btn btn-live">
+                    <i class="fab fa-instagram"></i> @yoroi.id
+                </a>
+            </div>
+        </div>
+
+        <!-- Akun 4 -->
+        <div class="case-study-box video-box-flex">
+            <div class="video-thumbnail logo-thumb">
+                <img src="images/muka.jpg" alt="Logo Muka Bali">
+            </div>
+            <div class="video-desc-area">
+                <h4>4. Muka Bali</h4>
+                <p>Manajemen konten promosi gaya hidup & dining tempat nongkrong estetik di Bali serta keterlibatan audiens lokal/turis.</p>
+                <a href="https://www.instagram.com/muka.bali/" target="_blank" class="btn btn-live">
+                    <i class="fab fa-instagram"></i> @muka.bali
+                </a>
+            </div>
+        </div>
+
+        </div>
+    </div> <!-- PENUTUP MODAL EXP 3 -->
+
+    <!-- Modal Exp 4: Island Media -->
+    <div id="exp4-modal" class="modal">
+        <div class="modal-content modal-large">
+            <span class="close-btn" onclick="closeModal('exp4-modal')">&times;</span>
+            <h2>Island Media / Juicebox Indonesia</h2>
+            <p class="text-pink">Marketing Intern (May 2023 - July 2023)</p>
+            <hr class="modal-divider">
+            
+            <div class="cert-container">
+                <div class="cert-info">
+                    <p><strong>Internship Scope & Assessment Highlights:</strong></p>
+                    <ul>
+                        <li>Created content strategies and visual assets for hospitality & F&B client accounts in Bali.</li>
+                        <li>Learned agency workflows, basic SEO keyword research, and social media graphics.</li>
+                        <li><strong>High Performance Scores:</strong> Quality of Work (80/100), Motivation & Responsibility (80/100), and Loyalty (80/100).</li>
+                    </ul>
+                    <div class="case-study-box" style="margin-top: 15px;">
+                        <p style="margin-bottom: 0;">💬 <strong>HRD Evaluator Remark:</strong><br>
+                        <em>"You are a young lady with lots of potential. Find your true self & passion - You gonna rock!"</em></p>
+                    </div>
+                </div>
+
+                <!-- Gambar Assessment Form Island Media -->
+                <div class="cert-image-wrapper">
+                    <img src="images/assessment-islandmedia.jpg" alt="Island Media Assessment Form" class="cert-img" style="max-height: 280px; width: 100%;">
+                    <span class="cert-caption"><i class="fas fa-file-signature"></i> Official OJT Assessment Form</span>
+                </div>
+            </div>
+        </div>
+    </div> <!-- PENUTUP MODAL EXP 4 -->
+
+    <script src="script.js"></script>
+</body>
+</html>
